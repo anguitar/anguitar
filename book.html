@@ -1,1 +1,49 @@
-<a href="book.html">Booking</a>
+<!-- book.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking - Aaron Nelson</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Aaron Nelson</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="music.html">Music</a>
+      <a href="book.html">Booking</a>
+      <a href="merch.html">Merch</a>
+      <a href="epk.html">EPK</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Booking & Contact</h2>
+      <p>Interested in booking Aaron for your church event, concert, or worship night? Please fill out the form below.</p>
+
+      <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
+        <label for="name">Full Name</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email Address</label><br />
+        <input type="email" id="email" name="_replyto" required /><br />
+
+        <label for="details">Event Details</label><br />
+        <textarea id="details" name="details" rows="5" required></textarea><br />
+
+        <button type="submit">Send Request</button>
+      </form>
+
+      <p><small>Note: Form powered by <a href="https://formspree.io" target="_blank" style="color:#cc5500;">Formspree</a> — free and easy setup.</small></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aaron Nelson Music</p>
+  </footer>
+</body>
+</html>
