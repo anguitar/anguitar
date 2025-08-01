@@ -89,3 +89,14 @@ footer {
   font-size: 0.9rem;
   border-top: 2px solid #cc5500;
 }
+.epk-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+  color: #e0e0e0;
+}
+
+.epk-list li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
