@@ -1,1 +1,91 @@
-<link rel="stylesheet" href="style.css">
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212; /* deep black-gray */
+  color: #e0e0e0; /* light gray text */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f1f2e; /* deep blue-gray */
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #cc5500; /* rusty orange */
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #cc5500; /* rusty orange */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff884d;
+}
+
+main {
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.player {
+  margin: 1.5rem 0;
+  border: 1px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.social {
+  margin-top: 1rem;
+}
+
+.social a {
+  display: inline-block;
+  background-color: #cc5500;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.social a:hover {
+  background-color: #ff884d;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f2e;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  border-top: 2px solid #cc5500;
+}
